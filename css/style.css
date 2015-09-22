@@ -43,6 +43,15 @@ bigscreen
 
 
 
+.header{
+    
+  
+    float:left;
+    min-height: 10%;
+    background-color: black;
+  
+}
+
 
 .navigationmenu-mobile{
     border: 1px solid black;
@@ -50,37 +59,37 @@ bigscreen
     width: auto;
 }
 .navigationmenu{
-    float: left;
-    height: 10%;
-    width: 100%;
+    position: relative;
+    min-height: 10%;
+    min-width: 100%;
     font-size: 16px;
     font-family: Tahoma, Geneva, sans-serif;
     font-weight: bold;
     text-shadow: 3px 2px 3px #333333;
     background-color: #8AD9FF;
- 
-    position: fixed;
-    z-index: 100;
+    
+    
+
 }
-.navigationmenu a {
-    text-decoration: none;
-    color: #00F;
-    padding: 8px 8px 8px 8px;
+
+.navigationmenu .navoption{
+
+    min-height: 20%; 
+    min-width: 25%;
+    
 }
-.navigationmenu ul {
-    height: auto;
-    padding: 8px 0px;
-    margin: 0px;
-}
-.navigationmenu li {
-    display: inline;
-    padding: 20px;
-}
+
 footer{
     clear: left;
+    position: relative;
     width: 100%;
-    height: 300px;
+    min-height: 10%;
     background-color: #3AD9FF;
+}
+
+body{
+    position: relative;
+    margin: 0px;
 }
 
 

@@ -30,9 +30,10 @@ bigscreen
 
 
 .accomodations{
-    position: relative;
+    min-height: 80%;
     min-width: 100%;
     background-color: darkblue;
+    float: left;
     
 }
 
@@ -40,12 +41,9 @@ bigscreen
 
 .accomodation {
     background-color: aquamarine;
-    display: block;
     float: left;
     margin: 0.5%;
     padding: 0.5%;
-    position: relative;
-    min-width: 40%;
     height: 350px;
     border: 1px solid black;
     text-align: center;
