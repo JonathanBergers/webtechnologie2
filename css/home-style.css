@@ -1,0 +1,39 @@
+/*
+mobile
+*/
+@media all and (max-width: 580px){
+        .city{
+        width: 100%
+    }
+
+}
+
+/*
+tablet
+*/
+@media all and (min-width: 580px) and (max-width: 1080px){
+    
+    .city{
+        width: 45%;   
+    }
+
+}
+
+/*
+bigscreen
+*/
+@media all and (min-width: 1080px){
+      .city{
+        width: 22%;
+    }
+
+}
+
+.city {
+    background-color: aqua;
+    display: inline-block;
+    margin: 0.5%;
+    padding: 0.5%;
+    height: 250px;
+    border: 1px solid black;
+}
