@@ -3,11 +3,11 @@
 mobile
 */
 @media all and (max-width: 580px){
-    .headermenu {
+    .navigationmenu {
         display: none;
         height: 0px;
     }
-    .headermenu {
+    .navigationmenu {
         visibility: visible;
     }
 
@@ -16,11 +16,11 @@ mobile
 tablet
 */
 @media all and (min-width: 580px) and (max-width: 1080px){
-    .headermenu-mobile{
+    .navigationmenu-mobile{
         display: none;
         height: 0px;
     }
-    .headermenu {
+    .navigationmenu {
         visibility: visible;
     }
 
@@ -29,11 +29,11 @@ tablet
 bigscreen
 */
 @media all and (min-width: 1080px){
-    .headermenu-mobile{
+    .navigationmenu-mobile{
         display: none;
         height: 0px;
     }
-    .headermenu {
+    .navigationmenu {
         visibility: visible;
 
     }
@@ -43,33 +43,36 @@ bigscreen
 
 
 
-.headermenu-mobile{
+
+.navigationmenu-mobile{
     border: 1px solid black;
     text-align: center;
     width: auto;
 }
-.headermenu{
+.navigationmenu{
     float: left;
-    height: 50px;
+    height: 10%;
     width: 100%;
     font-size: 16px;
     font-family: Tahoma, Geneva, sans-serif;
     font-weight: bold;
     text-shadow: 3px 2px 3px #333333;
     background-color: #8AD9FF;
-    border-radius: 8px;
+ 
+    position: fixed;
+    z-index: 100;
 }
-.headermenu a {
+.navigationmenu a {
     text-decoration: none;
     color: #00F;
     padding: 8px 8px 8px 8px;
 }
-.headermenu ul {
+.navigationmenu ul {
     height: auto;
     padding: 8px 0px;
     margin: 0px;
 }
-.headermenu li {
+.navigationmenu li {
     display: inline;
     padding: 20px;
 }

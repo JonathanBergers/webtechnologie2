@@ -2,7 +2,7 @@
 mobile
 */
 @media all and (max-width: 580px){
-        .city{
+    .accomodation{
         width: 100%
     }
 
@@ -12,8 +12,7 @@ mobile
 tablet
 */
 @media all and (min-width: 580px) and (max-width: 1080px){
-    
-    .city{
+    .accomodation{
         width: 45%;   
     }
 
@@ -23,24 +22,36 @@ tablet
 bigscreen
 */
 @media all and (min-width: 1080px){
-      .city{
+      .accomodation{
         width: 22%;
     }
 
 }
 
-.city {
+
+.accomodations{
+    position: relative;
+    min-width: 100%;
+    background-color: darkblue;
+    
+}
+
+
+
+.accomodation {
     background-color: aquamarine;
     display: block;
     float: left;
     margin: 0.5%;
     padding: 0.5%;
+    position: relative;
+    min-width: 40%;
     height: 350px;
     border: 1px solid black;
     text-align: center;
     
 }
-.city .description {
+.accomodation .description {
     margin-top: 5px;
     display: block;
     height: auto;
