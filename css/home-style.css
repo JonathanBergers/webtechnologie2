@@ -30,10 +30,28 @@ bigscreen
 }
 
 .city {
-    background-color: aqua;
-    display: inline-block;
+    background-color: aquamarine;
+    display: block;
+    float: left;
     margin: 0.5%;
     padding: 0.5%;
-    height: 250px;
+    height: 350px;
     border: 1px solid black;
+    text-align: center;
+    
+}
+.city .description {
+    margin-top: 5px;
+    display: block;
+    height: auto;
+    min-height: 95px;
+    width: 100%;
+    border: 1px solid black;
+}
+img {
+    display: block;
+    margin: auto;
+    max-height: 250px;
+    max-width: 100%;
+    
 }
