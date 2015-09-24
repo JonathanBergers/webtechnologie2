@@ -29,7 +29,16 @@ bigscreen
 }
 
 
+
+
+.headersection{
+ 
+    float: left;
+}
+
+
 .accomodations{
+    padding-top: 10%;
     min-height: 80%;
     min-width: 100%;
     background-color: darkblue;
@@ -39,6 +48,14 @@ bigscreen
 
 
 
+
+.headerhome{
+    position: relative;
+    padding-top: 10%;
+    height: 30%;
+    background-color:black; 
+    
+}
 .accomodation {
     background-color: aquamarine;
     float: left;

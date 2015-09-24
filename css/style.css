@@ -43,15 +43,14 @@ bigscreen
 
 
 
-.header{
+.headerhome{
+    float left: ;
     
-  
-    float:left;
-    min-height: 10%;
-    background-color: black;
-  
+    height: 30%;
+    background-color:black; 
+    top: 10%;
+    
 }
-
 
 .navigationmenu-mobile{
     border: 1px solid black;
@@ -59,13 +58,11 @@ bigscreen
     width: auto;
 }
 .navigationmenu{
-    position: relative;
-    min-height: 10%;
+    position: fixed;
+    min-height: 10%%;
     min-width: 100%;
     font-size: 16px;
-    font-family: Tahoma, Geneva, sans-serif;
     font-weight: bold;
-    text-shadow: 3px 2px 3px #333333;
     background-color: #8AD9FF;
     
     
@@ -73,8 +70,9 @@ bigscreen
 }
 
 .navigationmenu .navoption{
-
+    float: left;
     min-height: 20%; 
+    text-shadow: 3px 2px 3px #333333;
     min-width: 25%;
     
 }
