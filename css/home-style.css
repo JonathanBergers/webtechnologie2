@@ -13,7 +13,7 @@ tablet
 */
 @media all and (min-width: 580px) and (max-width: 1080px){
     .accomodation{
-        width: 45%;   
+        width: 48.6%;   
     }
 
 }
@@ -23,45 +23,36 @@ bigscreen
 */
 @media all and (min-width: 1080px){
       .accomodation{
-        width: 22%;
+        width: 23.8%;
     }
-
 }
 
 
 
-
-.headersection{
- 
-    float: left;
+header{
+    float: clear;
+    display: block;
+    background-color:cadetblue;  
 }
-
-
+header img{
+    display: block;
+    max height: 200px;
+    max width: 100%;
+    margin: auto;
+}
 .accomodations{
-    padding-top: 10%;
     min-height: 80%;
     min-width: 100%;
     background-color: darkblue;
     float: left;
     
 }
-
-
-
-
-.headerhome{
-    position: relative;
-    padding-top: 10%;
-    height: 30%;
-    background-color:black; 
-    
-}
 .accomodation {
     background-color: aquamarine;
     float: left;
-    margin: 0.5%;
-    padding: 0.5%;
-    height: 350px;
+    margin: 0.25%;
+    padding: 0.25%;
+    height: auto;
     border: 1px solid black;
     text-align: center;
     
@@ -74,7 +65,7 @@ bigscreen
     width: 100%;
     border: 1px solid black;
 }
-img {
+.accomodations img {
     display: block;
     margin: auto;
     max-height: 250px;

@@ -41,26 +41,28 @@ bigscreen
 
 }
 
-
-
-.headerhome{
-    float left: ;
-    
-    height: 30%;
-    background-color:black; 
-    top: 10%;
-    
+body{
+    top: 52px;
+    position: relative;
+    margin: 0px;
 }
-
 .navigationmenu-mobile{
+    top: 0;
+    height: 50px;
+    position: fixed;
     border: 1px solid black;
     text-align: center;
-    width: auto;
+    width: 100%;
+    background-color: red;
+}
+.navigationmenu-mobile h2{
+    margin-top: 10px;
 }
 .navigationmenu{
     position: fixed;
-    min-height: 10%%;
-    min-width: 100%;
+    top: 0px;
+    height: auto;
+    width: 100%;
     font-size: 16px;
     font-weight: bold;
     background-color: #8AD9FF;
@@ -71,9 +73,13 @@ bigscreen
 
 .navigationmenu .navoption{
     float: left;
-    min-height: 20%; 
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid black;
+    height: 50%; 
     text-shadow: 3px 2px 3px #333333;
-    min-width: 25%;
+    width: 24.6%;
     
 }
 
@@ -81,14 +87,13 @@ footer{
     clear: left;
     position: relative;
     width: 100%;
-    min-height: 10%;
+    height: 100px;
     background-color: #3AD9FF;
 }
-
-body{
-    position: relative;
-    margin: 0px;
+footer .contact{
+    text-align: center;
 }
+
 
 
 
