@@ -38,24 +38,33 @@ bigscreen
     }
 }
  
+body{
+ background-color: #F5F5F5;   
+}
 
 .img-1{
     float: left;
-    background-color: red;
     height: 400px;
+     min-width: 50%;
 }
 .img-2{
     float: left;
-    background-color: blue;
     height: 400px;
+     min-width: 50%;
 
 }
 img{
     height: 400px;
 }
 .lorem-ipsum{
-    background-color: cornflowerblue;
+    background-color: #FAFAFA;
 }
 .lorem-ipsum h2{
     text-align: center;
+}
+
+
+
+footer{
+ background-color: #F5F5F5;   
 }
