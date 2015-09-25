@@ -1,0 +1,61 @@
+/*
+mobile
+*/
+@media all and (max-width: 579px){
+    .img-1{
+        width: 100%;
+    }
+    .img-2{
+        width: 100%;
+    }
+
+}
+
+/*
+tablet
+*/
+@media all and (min-width: 580px) and (max-width: 1079px){
+    .img-1{
+        width: 100%;
+    }
+    .img-2{
+        width: 100%;
+    }
+
+}
+
+/*
+bigscreen
+*/
+@media all and (min-width: 1080px){
+
+
+    .img-1{
+        width: 50%;
+    }
+    .img-2{
+        width: 50%;
+    }
+}
+ 
+
+.img-1{
+    float: left;
+    background-color: red;
+    height: 400px;
+}
+.img-2{
+    float: left;
+    background-color: blue;
+    height: 400px;
+
+}
+img{
+    height: 400px;
+}
+.lorem-ipsum{
+    background-color: cornflowerblue;
+}
+.lorem-ipsum h2{
+    text-align: center;
+}

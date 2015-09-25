@@ -1,7 +1,7 @@
 /*
 mobile
 */
-@media all and (max-width: 580px){
+@media all and (max-width: 579px){
     .accomodation{
         width: 100%
     }
@@ -11,7 +11,7 @@ mobile
 /*
 tablet
 */
-@media all and (min-width: 580px) and (max-width: 1080px){
+@media all and (min-width: 580px) and (max-width: 1079px){
     .accomodation{
         width: 48.6%;   
     }
@@ -27,19 +27,6 @@ bigscreen
     }
 }
 
-
-
-header{
-    float: clear;
-    display: block;
-    background-color:cadetblue;  
-}
-header img{
-    display: block;
-    max height: 200px;
-    max width: 100%;
-    margin: auto;
-}
 .accomodations{
     min-height: 80%;
     min-width: 100%;
@@ -71,4 +58,10 @@ header img{
     max-height: 250px;
     max-width: 100%;
     
+}
+.lorem-ipsum{
+    background-color: cornflowerblue;
+}
+.lorem-ipsum h2{
+    text-align: center;
 }
