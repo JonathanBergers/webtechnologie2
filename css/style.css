@@ -42,7 +42,7 @@ bigscreen
 }
 
 A:link {
- COLOR: white; /*The color of the link*/
+    COLOR: white; /*The color of the link*/
 }
 
 
@@ -52,23 +52,12 @@ html{
 }
 
 body{
-    top: 52px;
+    top: 50px;
     position: relative;
     margin: 0px;
     font-family: 'Roboto Condensed', sans-serif;
 }
-.navigationmenu-mobile{
-    top: 0;
-    height: 50px;
-    position: fixed;
-    border: 1px solid black;
-    text-align: center;
-    width: 100%;
-    background-color: red;
-}
-.navigationmenu-mobile h2{
-    margin-top: 10px;
-}
+
 .navigationmenu{
     position: fixed;
     top: 0px;
@@ -81,20 +70,44 @@ body{
 
 .navigationmenu .navoption{
     float: left;
-    
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
     border: 1px solid black;
     height: 50%; 
     text-shadow: 3px 2px 3px #333333;
-    width: 24.6%;
-    
+    width: 19.6%;   
+}
+.navigationmenu-mobile{
+    top: 0;
+    height: 50px;
+    position: fixed;
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
+    background-color: red;
+}
+#mobile-menu{
+    background-color: aquamarine;
+    width: 100%;
+    top: 49px;
+    position: fixed;
+    visibility: hidden;
+    height: 0px;
+}
+#mobile-menu .navoption{
+    display: fixed;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid black;
+    text-shadow: 3px 2px 3px #333333;
 }
 header{
     float: clear;
     display: block;
-    
+
 }
 header img{
     display: block;

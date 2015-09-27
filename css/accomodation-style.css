@@ -5,9 +5,6 @@ mobile
     .img-1{
         width: 100%;
     }
-    .img-2{
-        width: 100%;
-    }
 
 }
 
@@ -16,9 +13,6 @@ tablet
 */
 @media all and (min-width: 580px) and (max-width: 1079px){
     .img-1{
-        width: 100%;
-    }
-    .img-2{
         width: 100%;
     }
 
@@ -33,30 +27,24 @@ bigscreen
     .img-1{
         width: 50%;
     }
-    .img-2{
-        width: 50%;
-    }
-}
- 
-body{
- background-color: #F5F5F5;   
 }
 
+body{
+    background-color: #F5F5F5;   
+}
+
+
+img{
+    height: auto;
+    width: 100%;
+}
 .img-1{
     float: left;
-    height: 400px;
-     min-width: 50%;
-}
-.img-2{
-    float: left;
-    height: 400px;
-     min-width: 50%;
-
-}
-img{
-    height: 400px;
+    
+    
 }
 .lorem-ipsum{
+    float: clear;
     background-color: #FAFAFA;
 }
 .lorem-ipsum h2{
@@ -65,6 +53,4 @@ img{
 
 
 
-footer{
- background-color: #F5F5F5;   
-}
+
