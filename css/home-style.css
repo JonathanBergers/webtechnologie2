@@ -30,17 +30,18 @@ bigscreen
 .accomodations{
     min-height: 80%;
     min-width: 100%;
-    background-color: darkblue;
+    background-color: #F5F5F5; 
     float: left;
     
 }
 .accomodation {
-    background-color: aquamarine;
+    background-color: #FAFAFA;
     float: left;
     margin: 0.25%;
     padding: 0.25%;
     height: auto;
     border: 1px solid black;
+      box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
     text-align: center;
     
 }
@@ -48,19 +49,22 @@ bigscreen
     margin-top: 5px;
     display: block;
     height: auto;
-    min-height: 95px;
+    min-height: 120px;
     width: 100%;
+    background-color: #D7CCC8;
+
     border: 1px solid black;
 }
 .accomodations img {
     display: block;
     margin: auto;
-    max-height: 250px;
+    height: 250px;
     max-width: 100%;
     
 }
 .lorem-ipsum{
-    background-color: cornflowerblue;
+    background-color: #FAFAFA;
+    text-align: center;
 }
 .lorem-ipsum h2{
     text-align: center;
