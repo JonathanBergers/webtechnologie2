@@ -5,6 +5,7 @@ mobile
 @media all and (max-width: 579px){
     .navigationmenu {
         display: none;
+        visibility: hidden;
         height: 0px;
     }
     .navigationmenu {
@@ -18,6 +19,7 @@ tablet
 @media all and (min-width: 580px) and (max-width: 1079px){
     .navigationmenu-mobile{
         display: none;
+        visibility: hidden;
         height: 0px;
     }
     .navigationmenu {
@@ -26,11 +28,12 @@ tablet
 
 }
 /*
-bigscreen
+"big"screen
 */
 @media all and (min-width: 1080px){
     .navigationmenu-mobile{
         display: none;
+        visibility: hidden;
         height: 0px;
     }
     .navigationmenu {
@@ -41,7 +44,7 @@ bigscreen
 
 }
 
-A {
+a {
     COLOR: white; /*The color of the link*/
 }
 
@@ -85,7 +88,7 @@ body{
     border: 1px solid black;
     text-align: center;
     width: 100%;
-   background-color: #2196F3;
+    background-color: #2196F3;
 }
 #mobile-menu{
     background-color: #2196F3;
@@ -115,7 +118,6 @@ header img{
     min-width: 100%;
     margin: auto;
 }
-
 footer{
     clear: left;
     position: bottom;
@@ -123,7 +125,7 @@ footer{
     top: 80%;
     width: 100%;
     height: 20%;
-  background-color: #F5F5F5; 
+    background-color: #F5F5F5; 
 }
 footer .contact{
     padding: 50px;

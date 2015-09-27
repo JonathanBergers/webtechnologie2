@@ -36,13 +36,12 @@ body{
 
 img{
     height: auto;
-    max-height: 400px;
+    max-height: 300px;
     width: 100%;
 }
 .img-1{
     float: left;
-    
-    
+
 }
 .lorem-ipsum{
     float: clear;
